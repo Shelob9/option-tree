@@ -96,7 +96,7 @@ if ( ! class_exists( 'OT_Loader' ) ) {
        *
        * @since     2.0.15
        */
-      define( 'OT_CHILD_THEME_MODE', apply_filters( 'ot_child_theme_mode', false ) );
+      define( 'OT_CHILD_THEME_MODE', apply_filters( 'ot_child_theme_mode', true ) );
       
       /**
        * For developers: Show Pages.
