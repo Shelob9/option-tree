@@ -178,7 +178,6 @@ if ( ! class_exists( 'OT_Loader' ) ) {
       $files = array( 
         'ot-functions-admin',
         'ot-functions-option-types',
-        'ot-functions-option-types-jp',
         'ot-functions-compat',
         'ot-settings-api',
         'ot-ui-theme-options'
