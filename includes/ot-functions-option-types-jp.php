@@ -281,7 +281,7 @@ if ( ! function_exists( 'ot_type_post_select_a_5' ) ) {
 
 
 /**
- * Post Select option type. (_a_5)
+ * Post Select option type. (_a_6)
  *
  * See @ot_display_by_type to see the full list of available arguments.
  *
@@ -291,9 +291,9 @@ if ( ! function_exists( 'ot_type_post_select_a_5' ) ) {
  * @access    public
  * @since     2.0
  */
-if ( ! function_exists( 'ot_type_post_select_a_5' ) ) {
+if ( ! function_exists( 'ot_type_post_select_a_6' ) ) {
   
-  function ot_type_post_select_a_5( $args = array() ) {
+  function ot_type_post_select_a_6( $args = array() ) {
 	$cat = ot_get_option( 'album_6_cat', '1');
     /* turns arguments array into variables */
     extract( $args );
@@ -302,7 +302,7 @@ if ( ! function_exists( 'ot_type_post_select_a_5' ) ) {
     $has_desc = $field_desc ? true : false;
     
     /* format setting outer wrapper */
-    echo '<div class="format-setting type-post-select_a_5 ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
+    echo '<div class="format-setting type-post-select_a_6 ' . ( $has_desc ? 'has-desc' : 'no-desc' ) . '">';
       
       /* description */
       echo $has_desc ? '<div class="description">' . htmlspecialchars_decode( $field_desc ) . '</div>' : '';
