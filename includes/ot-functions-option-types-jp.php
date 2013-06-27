@@ -33,7 +33,7 @@ if ( ! function_exists( 'ot_type_post_select_a_1' ) ) {
         echo '<select name="' . esc_attr( $field_name ) . '" id="' . esc_attr( $field_id ) . '" class="option-tree-ui-select ' . $field_class . '">';
         
         /* query posts array */
-        $query = new WP_Query( array( 'post_type' => array( 'post' ), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC', 'cat' => $cat, 'post_status' => 'any' ) );
+        $query = new WP_Query( array( 'post_type' => array( 'post' ), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC', 'cat' => 3, 'post_status' => 'any' ) );
         
         /* has posts */
         if ( $query->have_posts() ) {
